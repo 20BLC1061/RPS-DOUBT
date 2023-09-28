@@ -1,0 +1,35 @@
+.rulesBtn {
+  background-color: #ffffff;
+  color: #223a5f;
+  border-radius: 6px;
+  padding: 0px 2px 4px 2px;
+  width: 80px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  align-self: flex-end;
+  font-family: 'Bree Serif';
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.close {
+  align-self: flex-end;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.rules-content {
+  background-color: #ffffff;
+  padding: 25px;
+  padding-top: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rulesImage {
+  width: 100%;
+}

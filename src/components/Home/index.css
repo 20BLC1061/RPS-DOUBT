@@ -1,0 +1,51 @@
+.app-container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 90%;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.choice {
+  width: 250px;
+}
+@media (max-width: 768px) {
+  .choice {
+    width: 150px;
+  }
+}
+
+.optionButtons {
+  background-color: transparent;
+  border: 0;
+}
+.resultView {
+  text-align: center;
+}
+.resultHeading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+}
+.playBtn {
+  width: 120px;
+  padding: 10px;
+  background-color: rgb(121, 121, 228);
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}

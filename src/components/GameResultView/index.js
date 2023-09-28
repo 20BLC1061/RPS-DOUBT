@@ -1,0 +1,44 @@
+import './index.css'
+
+const GameResult = props => {
+  const {
+    onClickPlayAgain,
+    resultText,
+    opponentImageUrl,
+    userChoiceImageUrl,
+  } = props
+  return (
+    <div className="resultView">
+      <div className="resultContainer-1">
+        <div className="container">
+          <h1 className="resultHeading">YOU</h1>
+          <button type="button" className="optionButtons">
+            <img
+              src={userChoiceImageUrl}
+              alt="your choice"
+              className="choice"
+            />
+          </button>
+        </div>
+        <div className="container">
+          <h1 className="resultHeading">OPPONENT</h1>
+          <button type="button" className="optionButtons">
+            <img
+              src={opponentImageUrl}
+              alt="opponent choice"
+              className="choice"
+            />
+          </button>
+        </div>
+      </div>
+      <div className="resultContainer-2">
+        <p className="resultHeading">{resultText}</p>
+        <button type="button" className="playBtn" onClick={onClickPlayAgain}>
+          PLAY AGAIN
+        </button>
+      </div>
+    </div>
+  )
+}
+
+export default GameResult

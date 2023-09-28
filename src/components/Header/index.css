@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  width: 90%;
+  margin-top: 15px;
+}
+.listItem {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .listItem {
+    font-size: 18px;
+  }
+}
+.score-container {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+}
+@media (max-width: 768px) {
+  .score-container {
+    width: 120px;
+  }
+}
+.score-heading {
+  color: #223a5f;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 16px;
+}
+@media (max-width: 768px) {
+  .score-heading {
+    font-size: 24px;
+  }
+}
+.score {
+  font-size: 48px;
+  font-weight: bold;
+  color: #223a5f;
+  font-family: 'Roboto';
+  line-height: 14px;
+}
+@media (max-width: 768px) {
+  .score {
+    font-size: 32px;
+  }
+}
