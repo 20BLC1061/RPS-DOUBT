@@ -44,7 +44,7 @@ class Home extends Component {
   }
 
   onClickUserChoice = event => {
-    const randomNumber = Math.floor(Math.random() * 3)
+    const randomNumber = Math.floor(Math.random() * choicesList.length)
     this.setState(
       {
         userChoice: event.target.id,
