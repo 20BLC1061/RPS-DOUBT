@@ -40,6 +40,8 @@ class Home extends Component {
     console.log(result)
     if (result === 'YOU WON') {
       this.setState(prevState => ({score: prevState.score + 1}))
+    } else if (result === 'YOU LOSE') {
+      this.setState(prevState => ({score: prevState.score - 1}))
     }
   }
 
